@@ -36,7 +36,7 @@ h1{
   background-color: #8566aa;
   padding: 6px 0 2px 0;
   margin-bottom: 10px;
-  box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
+  box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.3);
 }
 input{
   text-align: center;
@@ -53,21 +53,36 @@ input{
 button{
   min-height: 40px;
   width:40px;
-  border-radius: 50%;
+  border-radius: 80%;
   border-color: transparent;
-  border-color: #8566aa;
-  color: black;
-  font-size: 40px;
+  border-color: #a47fd1b0;
+  color: rgb(70 74 66 / 68%);
+  font-size: 35px;
   border:none;
   outline:none;
+  margin-top: 5px;
   margin-left: 10px;
-  box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
+  box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.3);
 
 }
 button:hover{
-  background-color: green;
+  background-color: rgb(117, 118, 167);
 }
 ol{
   margin-top: 30px;
 }
+
+li
+{
+  padding-left: 0px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  color: #8566aa;
+  text-transform: capitalize;
+} 
+
 
